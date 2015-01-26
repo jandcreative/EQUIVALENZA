@@ -1,0 +1,209 @@
+/* GENERAL CHANGES */
+
+
+/* FONTS */
+
+@font-face {
+    font-family: 'bauerbodni_btbold_italic';
+    src: url('fonts/fonts/bauerbbl-webfont.eot');
+    src: url('fonts/bauerbbl-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/bauerbbl-webfont.woff2') format('woff2'),
+         url('fonts/bauerbbl-webfont.woff') format('woff'),
+         url('fonts/bauerbbl-webfont.ttf') format('truetype'),
+         url('fonts/bauerbbl-webfont.svg#bauerbodni_btbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'latomedium_italic';
+    src: url('fonts/lato-mediumitalic-webfont.eot');
+    src: url('fonts/lato-mediumitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/lato-mediumitalic-webfont.woff2') format('woff2'),
+         url('fonts/lato-mediumitalic-webfont.woff') format('woff'),
+         url('fonts/lato-mediumitalic-webfont.ttf') format('truetype'),
+         url('fonts/lato-mediumitalic-webfont.svg#latomedium_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'latobold';
+    src: url('fonts/lato-bold-webfont.eot');
+    src: url('fonts/lato-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/fonts/lato-bold-webfont.woff2') format('woff2'),
+         url('fonts/lato-bold-webfont.woff') format('woff'),
+         url('fonts/lato-bold-webfont.ttf') format('truetype'),
+         url('fonts/lato-bold-webfont.svg#latobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Fin Fonts */
+
+<!--
+/* GENERAL */
+html{
+  height:100%}
+
+body {
+  margin: 0;
+  overflow: visible;
+}
+
+section {
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    width: 920px;
+}
+
+ul{
+    margin:0;
+    padding:0;}
+
+li{
+    list-style:none;
+}
+
+.name {
+    background: url("../img/img_back_familia_floral.png")no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 229px;
+    width: 229px;
+    vertical-align: top;
+    text-align: center; 
+}
+
+.description {
+    background: url("../img/img_back_description_floral.png")no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: inline-block;
+    position: relative;
+    width: 687px;
+    height: 229px;
+} 
+
+.family h2 {
+    color: #fff;
+    font-family: "bauerbodni_btbold_italic";
+    font-size: 36px;
+    font-style: italic;
+    font-weight: normal;
+    padding: 40px 20px;
+}
+
+.family h3{
+    font-family: georgia;
+    font-style: italic;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    padding-left: 200px;
+}
+
+.family p{
+    font-family: georgia;
+    font-style: italic;
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+    padding-left: 200px;
+}
+
+
+span{
+    font-family: "latomedium_italic";
+    font-size: 18px;
+    text-align : center;
+}
+
+.floral_color{
+    color:#e10047;
+}
+
+.datos{
+  padding-top:20px;
+  padding-bottom:40px;
+}
+
+.datos li {
+    display: inline-block;
+    text-align: left;
+}
+
+.datos > li:nth-child(2n){
+  padding-right:0;
+  right:0px;
+  color:#726761;
+  text-transform:uppercase;
+  position:absolute;
+
+}
+
+.datos a{
+  text-decoration:none;
+  color:#726761;
+}
+
+.bloque_1{
+  width:50%;
+  display:block;
+}
+
+.bloque_1 li {
+    border-radius: 2px;
+    display: inline-block;
+    font-family: "Myriad Pro";
+    font-size: 12px;
+    height: 22px;
+    margin-bottom: 4px;
+    margin-right: 1px;
+    text-align: center;
+    vertical-align: top;
+    width: 104px;
+}
+
+.bloque_1 li ul li{
+    display:inline-block;
+}
+
+.alde{
+  background-color:#fbb419;
+  color:#282828;
+  width:104px;
+  vertical-align:top;
+}
+
+.avalaible{
+  background-color:#fbb419;
+  color:#282828;
+  width:45px!important;
+
+}
+
+.no_avalaible{
+  background-color:#fdd98c;
+  color:#282828;
+  width:45px!important;
+}
+
+.dulce{
+  background-color:#ee8400;
+  color:#282828;
+  width:104px;
+  vertical-align:top;
+}
+
+.dulce .avalaible{
+  background-color:#ee8400;
+  color:#fff;
+  width:45px!important;
+
+}
+
+.dulce .no_avalaible{
+  background-color:#f6c17f;
+  color:#fff;
+  width:45px!important;
+}
